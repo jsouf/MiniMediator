@@ -1,4 +1,4 @@
-﻿using MiniMediator.Core.Abstractions;
+﻿using MiniMediator.Abstractions;
 
 namespace MiniMediator.Core.Examples;
 

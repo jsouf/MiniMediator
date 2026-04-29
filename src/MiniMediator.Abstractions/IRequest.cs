@@ -1,3 +1,3 @@
-﻿namespace MiniMediator.Core.Abstractions;
+﻿namespace MiniMediator.Abstractions;
 
 public interface IRequest<TResponse> { }

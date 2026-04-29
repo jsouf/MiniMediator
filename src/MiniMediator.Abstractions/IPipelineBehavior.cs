@@ -1,4 +1,4 @@
-﻿namespace MiniMediator.Core.Abstractions;
+﻿namespace MiniMediator.Abstractions;
 
 public interface IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>
