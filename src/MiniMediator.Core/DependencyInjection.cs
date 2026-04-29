@@ -3,7 +3,7 @@ using MiniMediator.Abstractions;
 
 namespace MiniMediator.Core;
 
-public static class MiniMediatorServiceCollectionExtensions
+public static class DependencyInjection
 {
     public static IServiceCollection AddMiniMediator(this IServiceCollection services)
     {
