@@ -1,8 +1,8 @@
 ﻿using MiniMediator.Core.Abstractions;
 
-namespace MiniMediator.Core.Validation;
+namespace MiniMediator.Core.Examples;
 
-public sealed class ValidationBehavior<TRequest, TResponse>(IEnumerable<IValidator<TRequest>> validators)
+internal sealed class ValidationBehavior<TRequest, TResponse>(IEnumerable<IValidator<TRequest>> validators)
     : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>
 {

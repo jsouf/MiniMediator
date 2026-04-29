@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using MiniMediator.Core.Abstractions;
 
-namespace MiniMediator.Core.Sender;
+namespace MiniMediator.Core;
 
-public sealed class Mediator(IServiceProvider provider) : IMediator
+internal sealed class Mediator(IServiceProvider provider) : IMediator
 {
     private readonly IServiceProvider _provider = provider;
 

@@ -3,6 +3,8 @@
     <File Path="README.md" />
   </Folder>
   <Folder Name="/src/">
+    <Project Path="src/MiniMediator.Abstractions/MiniMediator.Abstractions.csproj" />
     <Project Path="src/MiniMediator.Core/MiniMediator.Core.csproj" />
+    <Project Path="src/MiniMediator.Generator/MiniMediator.Generator.csproj" />
   </Folder>
 </Solution>

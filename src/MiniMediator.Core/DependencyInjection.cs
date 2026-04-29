@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using MiniMediator.Core.Abstractions;
-using MiniMediator.Core.Sender;
 
 namespace MiniMediator.Core;
 

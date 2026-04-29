@@ -2,9 +2,9 @@
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using System.Text;
 
-namespace MiniMediator.Core.Runtime;
+namespace MiniMediator.Generator;
 
-public sealed class MiniMediatorGenerator : IIncrementalGenerator
+internal sealed class MiniMediatorGenerator : IIncrementalGenerator
 {
     private const string IRequestHandler = nameof(IRequestHandler);
 

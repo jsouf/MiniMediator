@@ -1,8 +1,8 @@
 ﻿using MiniMediator.Core.Abstractions;
 
-namespace MiniMediator.Core.Logging;
+namespace MiniMediator.Core.Examples;
 
-public sealed class LoggingBehavior<TRequest, TResponse>
+internal sealed class LoggingBehavior<TRequest, TResponse>
     : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>
 {
