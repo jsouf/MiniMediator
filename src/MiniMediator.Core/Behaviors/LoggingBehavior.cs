@@ -1,6 +1,6 @@
 ﻿using MiniMediator.Abstractions;
 
-namespace MiniMediator.Core.Examples;
+namespace MiniMediator.Core.Behaviors;
 
 internal sealed class LoggingBehavior<TRequest, TResponse>
     : IPipelineBehavior<TRequest, TResponse>
