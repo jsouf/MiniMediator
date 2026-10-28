@@ -249,20 +249,3 @@ services.AddValidatorsFromAssembly(typeof(GetUserValidator).Assembly);
 MIT
 
 ---
-
-## 🚀 Roadmap
-
-- Incremental generator v2
-- Pipeline caching optimization
-- AOT / Native compatibility improvements
-- Benchmark vs MediatR
-- Analyzer for missing handlers
-
----
-
-## 🤝 Contributing
-
-PRs welcome:
-- Performance improvements
-- Generator enhancements
-- API polish
